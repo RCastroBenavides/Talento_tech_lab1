@@ -35,8 +35,10 @@ p.xlarge {
 	font-size: xlarge;
 }
 
-h1 {
-	font-size: 50 ;
+h2 {
+	font-size: 20 ;
+	align: center;
+	font-color: #023047;
 }
 
 h4 {
@@ -71,7 +73,7 @@ body {
     box-shadow: 0 0 50px rgba(25, 12, 25, 0.2);
 }
 /* Estilos para las cajas */
-.caja {
+.repost1 {
     background-color: #3a7ca5;
     color: pink;
     padding: 20px;
@@ -80,7 +82,7 @@ body {
     flex: 1; /* Flex-grow, permite que las cajas crezcan para ocupar el espacio disponible */
     margin: 10px; /* Espacio entre las cajas */
 }
-.caja2 {
+.repost2 {
     background-color: #3a7ca5;
     color: pink;
     padding: 10px;
