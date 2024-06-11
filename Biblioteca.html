@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+			BIBLIOTECA UNIVERSIDAD PEPITO
+</title>
+	<link rel="stylesheet" href="Stilyes.css" />
+	<script type="text/javascript" src="actionsjsbib.js"></script>
+</head>	
+<body>
+<p>	<div class="caja2">
+<! -- y -->
+<h4>REGISTRO DE LIBROS DEL SISTEMA DE BIBLIOTECA
+<p><img src="Img1.jpeg"  width="150" height="150" align="center-left"/><p>
+</h4>
+</div></p>	<br>
+
+ <div class="container"> 
+		<form name="datosbb">
+			<div class="caja">
+			<label class="caja" for="usuario"> IBSN: </label>
+			<input type="text" id="IBSN" name="IBSN" placeholder="Digitar codigo"> <br><br>
+			</div>
+			<div class="caja">
+			<label for "Titulo">TITULO: </label>
+			<input type="text" id="titulo" name="TITULO" placeholder="Digitar Titulo del Libro" >
+			<label for "Autor">AUTOR: </label>
+			<input type="text" id="autor" name="autor"><br><br>
+			</div>
+			<div class="caja">
+			<label for "fecha">FECHA EDICIÓN: </label>
+			<input type="date" id="fecha" name="fecha" ></input> <br><br>
+			</div>
+			<div class="caja">			
+			<label for="pags">NÚMERO DE PAGINAS: </label>
+			<input type="text" name="pags" cols="20"> </input>
+			</div>
+			<div class="caja">
+			<label for="ejempl">EJEMPLARES: </label> <br><br>
+			<label for="Cjempl">CANTIDAD: </label>
+			<input type="text" id="nejempl" name="dato2" ></input>
+			<label for="Dejem">DISPONIBLES : </label>
+			<input type="text" id="Dejempl" ></input>
+			</div>
+			<div class="caja">
+			<label for "res">RESUMEN: </label><br>
+			<textarea id="res" name="res" rows="4" cols="70"></textarea> <br><br>
+			</div>	
+			<div class="caja">				
+			<label for="medio" class="caja">MEDIO</label><br><br>
+			<input type="checkbox" name="medio" value="f"> FÍSICO <br>
+			<input type="checkbox" name="medio" value="d"> DIGITAL <br>
+			</div>
+			<div class="caja2">
+			<p> <button type="submit" >ENVIAR</button>
+			<button id="cons2" onClick="buscar2()" >CONSULTAR</button>
+			<button type="reset">LIMPIAR</button>
+			</div>
+			<!---->
+		
+		</form>
+	
+ </div>		
+<br>
+<p id="cont1" class="cont1"> RESULTADO </p>
+<br>	 
+	<table border id="detallelib">
+		<tr>
+			<th>ISBM</th> <th>TITULO</th> <th>AUTOR</th>
+				</tr>
+				<tr>
+			<TD>D</TD> <TD>E</TD> <TD>F</TD>
+		</tr>		
+	</table>
+			</div>
+	</body>
+
+</html>
