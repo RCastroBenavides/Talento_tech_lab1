@@ -19,16 +19,14 @@
 <h2>POR FAVOR DIGITE EL ISBN DEL LIBRO BUSCADO O EL TITULO Y DE CLIK EN CONSULTAR </h2> <br>
  <div class="container"> 
  
-		<form name="datosbb">
+		<form action="/login/auth" method="post">
 			<div class="repost">
-			<label class="repost" for="usuario"> ID: </label>
+			<label class="repost" for="usuario"> IBSN: </label>
 			<input type="text" id="IBSN" name="IBSN" placeholder="Digitar codigo"> <br><br>
 			</div>
 			<div class="repost">
 			<label for "Titulo">TITULO: </label>
-			<input type="text" id="titulo" name="TITULO" size="20" placeholder="Digitar Titulo del Libro" >
-			<div class="repost">
-			</div><br>
+			<input type="text" id="Titulo" name="Titulo" placeholder="Digitar Titulo del Libro" >
 			<label for "Autor">AUTOR: </label>
 			<input type="text" id="autor" name="autor"><br><br>
 			</div>
@@ -38,15 +36,15 @@
 			</div>
 			<div class="repost">			
 			<label for="pags">NÚMERO DE PAGINAS: </label>
-			<input type="text" id="pags" name="pags" cols="20"> </input>
+			<input type="text"  id="pags" name="pags" cols="20"> </input>
 			</div>
 			<div class="repost">
 			<label for="ejempl">EJEMPLARES: </label> <br><br>
-			<label for="Cjempl">CANTIDAD: </label><br><br>
+			<label for="Cjempl">CANTIDAD: </label>
 			<input type="text" id="nejempl" name="dato2" ></input>
 			<label for="Dejem">DISPONIBLES : </label>
 			<input type="text" id="Dejempl" ></input>
-			</div><br><br>
+			</div>
 			<div class="repost">
 			<label for "res">RESUMEN: </label><br>
 			<textarea id="res" name="res" rows="4" cols="70"></textarea> <br><br>
@@ -56,28 +54,37 @@
 			<input type="checkbox" name="medio" value="f"> FÍSICO <br>
 			<input type="checkbox" name="medio" value="d"> DIGITAL <br>
 			</div>
-			<div class="repost2">
-			<button type="submit" height="20px">CONSULTA1</button>
+			</div>	<div class="repost2">
+			<button type="submit" height="20px">ENVIAR - NO USAR </button>
+			<button type="button" onClick="getData2()" >GUARDAR REGISTRO</button>
 			<button type="button" onClick="getData()" >CONSULTAR</button>
+			<button type="button" onClick="actualizarTabla()" >LISTAR LIBROS</button>
 			<button type="reset">RESET</button>
 			</div>
-			
+			<!---->
 		</form>
 	
  </div>		
 <br>
-<!--
-<p id="cont1" class="cont1"> RESULTADO </p>
-<br>	 
-	<table border id="detallelib">
-		<tr>
-			<th>ISBM</th> <th>TITULO</th> <th>AUTOR</th>
-				</tr>
-				<tr>
-			<TD>D</TD> <TD>E</TD> <TD>F</TD>
-		</tr>		
-	</table>
-			</div>-->
+<div class="container">
+ <h2>Registros de la Biblioteca</h2>
+    <table border>
+        <thead>
+            <tr>
+                <th>ISBN</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Fecha</th>
+                <th>Páginas</th>
+                <th>Ejemplares</th>
+                <th>Ejemplares disponibles</th>
+            </tr>
+        </thead>
+        <tbody id="tablaLibros">
+            <!-- Los libros se agregarán aquí -->
+        </tbody>
+</div>
+
 	</body>
 
 </html>

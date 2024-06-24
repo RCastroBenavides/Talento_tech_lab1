@@ -1,0 +1,57 @@
+[
+  {
+    "ISBN": "978-3-16-148410-0",
+    "Titulo": "El misterio del libro perdido",
+    "Autor": "Juan Pérez",
+    "Fecha edicion": "2022-05-15",
+    "Numero de paginas": 320,
+    "Cantidad de ejemplares": 5,
+    "Cantidad de ejemplares disponibles": 2,
+    "Resumen": "Un apasionante thriller sobre la búsqueda de un antiguo manuscrito que podría cambiar la historia.",
+    "Tipo de medio del ejemplar": "físico"
+  },
+  {
+    "ISBN": "978-0-12-345678-9",
+    "Titulo": "Tecnologías del Futuro",
+    "Autor": "María García",
+    "Fecha edicion": "2021-09-10",
+    "Numero de paginas": 250,
+    "Cantidad de ejemplares": 8,
+    "Cantidad de ejemplares disponibles": 4,
+    "Resumen": "Una exploración de las innovaciones tecnológicas que definirán las próximas décadas.",
+    "Tipo de medio del ejemplar": "electrónico"
+  },
+  {
+    "ISBN": "978-1-234-56789-7",
+    "Titulo": "Cocina Vegana para Todos",
+    "Autor": "Ana López",
+    "Fecha edicion": "2019-03-25",
+    "Numero de paginas": 180,
+    "Cantidad de ejemplares": 10,
+    "Cantidad de ejemplares disponibles": 7,
+    "Resumen": "Deliciosas recetas veganas para disfrutar en cualquier ocasión.",
+    "Tipo de medio del ejemplar": "físico"
+  },
+  {
+    "ISBN": "978-4-567-89012-3",
+    "Titulo": "Historia del Arte Moderno",
+    "Autor": "Carlos Fernández",
+    "Fecha edicion": "2020-11-30",
+    "Numero de paginas": 400,
+    "Cantidad de ejemplares": 3,
+    "Cantidad de ejemplares disponibles": 1,
+    "Resumen": "Un recorrido detallado por los principales movimientos del arte moderno.",
+    "Tipo de medio del ejemplar": "electrónico"
+  },
+  {
+    "ISBN": "978-5-678-90123-4",
+    "Titulo": "Aprende Python en 30 Días",
+    "Autor": "Laura Martínez",
+    "Fecha edicion": "2023-01-20",
+    "Numero de paginas": 150,
+    "Cantidad de ejemplares": 6,
+    "Cantidad de ejemplares disponibles": 3,
+    "Resumen": "Una guía paso a paso para dominar el lenguaje de programación Python.",
+    "Tipo de medio del ejemplar": "físico"
+  }
+]
